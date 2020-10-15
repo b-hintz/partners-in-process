@@ -1,0 +1,98 @@
+.link {
+  font-style: italic;
+  margin-left:2vw;
+  margin-right:6vw;
+  line-height: 6vh;
+  color:black;
+}.link:hover{
+  color: blue;
+}
+
+.navbar{
+  font-size: 3vh;
+  height:7vh;
+  color:black;
+  padding: 0px 40px 0px 40px;
+  background-color: rgb(224, 222, 235);
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+}
+
+.app{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 70vw;
+  min-height: 110vh;
+  margin: auto;
+  background-color: #464746;
+  color: white;
+}
+
+.logobar{
+  font-size: 5vh;
+  height: 15vh;
+  background-color: ivory;
+  color: black;
+}
+
+.contact{
+  font-size: 40%;
+  font-weight: bold;
+  font-style: italic;
+}
+.logo{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  margin-left: 4vw;
+  color: black;
+}
+
+.textarea{
+  width: 40vw;
+  height: 20vh;
+}
+
+.form{
+  border: solid black 2px;
+  border-radius: 9px;
+  background-color: ivory;
+  width: fit-content;
+  margin: auto;
+}
+
+.alert{
+  width: fit-content;
+}
+
+.productNav{
+  border: solid black 1px;
+  background-color: white;
+}
+
+.product{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pageContainer{
+  padding: 5%;
+}
+
+a {
+  color: white;
+  font-weight: bolder;
+}
+
+.field{
+  width: 100%;
+}
+
+.contact-info{
+  border: solid black 1px;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 2%;
+  margin: auto;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 150%;
+  background-color: white;
+}
