@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/partners-in-process/static/css/main.e2d6064d.chunk.css",
+    "main.js": "/partners-in-process/static/js/main.2001563d.chunk.js",
+    "main.js.map": "/partners-in-process/static/js/main.2001563d.chunk.js.map",
+    "runtime-main.js": "/partners-in-process/static/js/runtime-main.b62e2fa2.js",
+    "runtime-main.js.map": "/partners-in-process/static/js/runtime-main.b62e2fa2.js.map",
+    "static/js/2.0aad3f4c.chunk.js": "/partners-in-process/static/js/2.0aad3f4c.chunk.js",
+    "static/js/2.0aad3f4c.chunk.js.map": "/partners-in-process/static/js/2.0aad3f4c.chunk.js.map",
+    "index.html": "/partners-in-process/index.html",
+    "precache-manifest.abfa072680c924a0c2cbccfd632aeaa4.js": "/partners-in-process/precache-manifest.abfa072680c924a0c2cbccfd632aeaa4.js",
+    "service-worker.js": "/partners-in-process/service-worker.js",
+    "static/css/main.e2d6064d.chunk.css.map": "/partners-in-process/static/css/main.e2d6064d.chunk.css.map",
+    "static/js/2.0aad3f4c.chunk.js.LICENSE.txt": "/partners-in-process/static/js/2.0aad3f4c.chunk.js.LICENSE.txt",
+    "static/media/email.cjs": "/partners-in-process/static/media/email.b2dc0fa5.cjs"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b62e2fa2.js",
+    "static/js/2.0aad3f4c.chunk.js",
+    "static/css/main.e2d6064d.chunk.css",
+    "static/js/main.2001563d.chunk.js"
+  ]
+}
