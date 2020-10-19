@@ -138,4 +138,8 @@ a {
   .textarea{
     width: 75vw;
   }
+  .manlink{
+    box-shadow: none;
+    border-radius: 0px;
+  }
 }
