@@ -1,23 +1,38 @@
 {
   "files": {
-    "main.css": "/partners-in-process/static/css/main.e2d6064d.chunk.css",
-    "main.js": "/partners-in-process/static/js/main.2001563d.chunk.js",
-    "main.js.map": "/partners-in-process/static/js/main.2001563d.chunk.js.map",
+    "main.css": "/partners-in-process/static/css/main.94ab8ad7.chunk.css",
+    "main.js": "/partners-in-process/static/js/main.f5f67ad3.chunk.js",
+    "main.js.map": "/partners-in-process/static/js/main.f5f67ad3.chunk.js.map",
     "runtime-main.js": "/partners-in-process/static/js/runtime-main.b62e2fa2.js",
     "runtime-main.js.map": "/partners-in-process/static/js/runtime-main.b62e2fa2.js.map",
-    "static/js/2.0aad3f4c.chunk.js": "/partners-in-process/static/js/2.0aad3f4c.chunk.js",
-    "static/js/2.0aad3f4c.chunk.js.map": "/partners-in-process/static/js/2.0aad3f4c.chunk.js.map",
+    "static/js/2.a4d7fffe.chunk.js": "/partners-in-process/static/js/2.a4d7fffe.chunk.js",
+    "static/js/2.a4d7fffe.chunk.js.map": "/partners-in-process/static/js/2.a4d7fffe.chunk.js.map",
     "index.html": "/partners-in-process/index.html",
-    "precache-manifest.abfa072680c924a0c2cbccfd632aeaa4.js": "/partners-in-process/precache-manifest.abfa072680c924a0c2cbccfd632aeaa4.js",
+    "precache-manifest.e071b85e40a0df211e06694b44d1e0c7.js": "/partners-in-process/precache-manifest.e071b85e40a0df211e06694b44d1e0c7.js",
     "service-worker.js": "/partners-in-process/service-worker.js",
-    "static/css/main.e2d6064d.chunk.css.map": "/partners-in-process/static/css/main.e2d6064d.chunk.css.map",
-    "static/js/2.0aad3f4c.chunk.js.LICENSE.txt": "/partners-in-process/static/js/2.0aad3f4c.chunk.js.LICENSE.txt",
-    "static/media/email.cjs": "/partners-in-process/static/media/email.b2dc0fa5.cjs"
+    "static/css/main.94ab8ad7.chunk.css.map": "/partners-in-process/static/css/main.94ab8ad7.chunk.css.map",
+    "static/js/2.a4d7fffe.chunk.js.LICENSE.txt": "/partners-in-process/static/js/2.a4d7fffe.chunk.js.LICENSE.txt",
+    "static/media/amamix.gif": "/partners-in-process/static/media/amamix.4e7dd1c3.gif",
+    "static/media/amaprop.jpg": "/partners-in-process/static/media/amaprop.05eb8e6a.jpg",
+    "static/media/flowserve.png": "/partners-in-process/static/media/flowserve.ffd3507c.png",
+    "static/media/hidrostal.png": "/partners-in-process/static/media/hidrostal.39918a09.png",
+    "static/media/hydrogritter.jpg": "/partners-in-process/static/media/hydrogritter.20393f67.jpg",
+    "static/media/ksb.png": "/partners-in-process/static/media/ksb.eb246da5.png",
+    "static/media/membranes.jpg": "/partners-in-process/static/media/membranes.742e66b9.jpg",
+    "static/media/moyno.png": "/partners-in-process/static/media/moyno.5ee89c95.png",
+    "static/media/mwipumps.png": "/partners-in-process/static/media/mwipumps.1764151e.png",
+    "static/media/screwsucker.jpg": "/partners-in-process/static/media/screwsucker.364c0452.jpg",
+    "static/media/screwsucker.png": "/partners-in-process/static/media/screwsucker.beef690e.png",
+    "static/media/smith.png": "/partners-in-process/static/media/smith.b531f700.png",
+    "static/media/stock 1.jpg": "/partners-in-process/static/media/stock 1.1457317b.jpg",
+    "static/media/stock 3.jpg": "/partners-in-process/static/media/stock 3.0879edbd.jpg",
+    "static/media/stock 4.jpg": "/partners-in-process/static/media/stock 4.cadbd95e.jpg",
+    "static/media/suez.png": "/partners-in-process/static/media/suez.8c89e71f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b62e2fa2.js",
-    "static/js/2.0aad3f4c.chunk.js",
-    "static/css/main.e2d6064d.chunk.css",
-    "static/js/main.2001563d.chunk.js"
+    "static/js/2.a4d7fffe.chunk.js",
+    "static/css/main.94ab8ad7.chunk.css",
+    "static/js/main.f5f67ad3.chunk.js"
   ]
 }
