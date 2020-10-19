@@ -7,7 +7,7 @@ const Nav = (props) => (
         <div className = "col-lg-9 pt-5">
         <Link to={{pathname: "/partners-in-process"}} className= 'logo'>Company Logo</Link>
         </div>
-        <div className = "col-lg-3 pt-5 contact">
+        <div className = "col-lg-2 pt-5 contact">
             <p>Phone: (555)555-5555</p>
             <p>Email: email@email.com</p>
 
