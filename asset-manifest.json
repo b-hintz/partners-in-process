@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/partners-in-process/static/css/main.1d0813fa.chunk.css",
-    "main.js": "/partners-in-process/static/js/main.44b4e609.chunk.js",
-    "main.js.map": "/partners-in-process/static/js/main.44b4e609.chunk.js.map",
+    "main.css": "/partners-in-process/static/css/main.1f13faf0.chunk.css",
+    "main.js": "/partners-in-process/static/js/main.e7cb3239.chunk.js",
+    "main.js.map": "/partners-in-process/static/js/main.e7cb3239.chunk.js.map",
     "runtime-main.js": "/partners-in-process/static/js/runtime-main.b62e2fa2.js",
     "runtime-main.js.map": "/partners-in-process/static/js/runtime-main.b62e2fa2.js.map",
     "static/js/2.59147f95.chunk.js": "/partners-in-process/static/js/2.59147f95.chunk.js",
     "static/js/2.59147f95.chunk.js.map": "/partners-in-process/static/js/2.59147f95.chunk.js.map",
     "index.html": "/partners-in-process/index.html",
-    "precache-manifest.7ed90013f8f600c811492ed6e4982e39.js": "/partners-in-process/precache-manifest.7ed90013f8f600c811492ed6e4982e39.js",
+    "precache-manifest.1bd307dbda3b01b19f2ec86d22ae3ec5.js": "/partners-in-process/precache-manifest.1bd307dbda3b01b19f2ec86d22ae3ec5.js",
     "service-worker.js": "/partners-in-process/service-worker.js",
-    "static/css/main.1d0813fa.chunk.css.map": "/partners-in-process/static/css/main.1d0813fa.chunk.css.map",
+    "static/css/main.1f13faf0.chunk.css.map": "/partners-in-process/static/css/main.1f13faf0.chunk.css.map",
     "static/js/2.59147f95.chunk.js.LICENSE.txt": "/partners-in-process/static/js/2.59147f95.chunk.js.LICENSE.txt",
     "static/media/amamix.gif": "/partners-in-process/static/media/amamix.4e7dd1c3.gif",
     "static/media/amaprop.jpg": "/partners-in-process/static/media/amaprop.05eb8e6a.jpg",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.b62e2fa2.js",
     "static/js/2.59147f95.chunk.js",
-    "static/css/main.1d0813fa.chunk.css",
-    "static/js/main.44b4e609.chunk.js"
+    "static/css/main.1f13faf0.chunk.css",
+    "static/js/main.e7cb3239.chunk.js"
   ]
 }
