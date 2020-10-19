@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Pump from '../images/pump1.jpg'
 
 class ProductNav extends React.Component{
 

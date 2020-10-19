@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route, Switch, Link} from 'react-router-dom';
+import {BrowserRouter, Route, Switch } from 'react-router-dom';
 import ProductNav from './ProductNav'
 import Contact from './Contact'
 import Cat1 from './Cat1';
