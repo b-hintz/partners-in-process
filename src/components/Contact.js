@@ -67,7 +67,7 @@ class Contact extends React.Component {
 
    render() {
        return (
-            <div className='text-center p-5' >
+            <div className='text-center py-5' >
                 <div>
                     <div className = "alert-info mx-auto my-3 alert">
                         <h4>Have questions?</h4>
