@@ -8,10 +8,12 @@ const Product = (props) => (
             <h4 className = "mb-2">{props.label}</h4>
             <img src = {props.imgSrc} alt = {props.imgAlt} style = {{'width': '100%'}}/>
         </div>
+        <div className = 'px-2'>
         <p>{props.description}</p>
         <Link to={{pathname: '/Contact'}}>
             <button className = "btn btn-secondary" onClick = {props.onclick}>Learn More</button>
         </Link>
+        </div>
     </div>
 )
 
