@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import Pump from '../images/pump1.jpg'
 
 class ProductNav extends React.Component{
 
@@ -7,39 +8,28 @@ class ProductNav extends React.Component{
         return (
         <div className = "pageContainer">
             <div className = "row">
-                <div className = "col-12 mb-5 text-center">
-                    <h5>Products</h5>
+                <div className = "col-lg-3 mb-3">
+                    <Link to={{pathname:"/AllProducts"}}>
+                        <div className = "cat text-center p-3">Pumping Equipment</div>
+                    </Link>
+                </div>
+                <div className = "col-lg-3 mb-3">
+                    <Link to={{pathname:"/Cat2"}}>
+                        <div className = "cat text-center p-3">Process and Treatment Equipment</div>
+                    </Link>
+                </div>
+                <div className = "col-lg-3 mb-3">
+                    <Link to={{pathname:"/Cat3"}}>
+                        <div className = "cat text-center p-3">Mixer Systems</div>
+                    </Link>
+                </div>
+                <div className = "col-lg-3 mb-3">
+                    <Link to={{pathname:"/Cat4"}}>
+                        <div className = "cat text-center p-3">Portable Pumping Systems</div>
+                    </Link>
                 </div>
             </div>
-            <div className = "row">
-                <div className = "col-3 text-center">
-                    <Link to={{pathname:"/AllProducts"}}>Category 1</Link>
-                </div>
-                <div className = "col-3 text-center">
-                    <Link to={{pathname:"/Cat2"}}>Category 2</Link>
-                </div>
-                <div className = "col-3 text-center">
-                    <Link to={{pathname:"/Cat3"}}>Category 3</Link>
-                </div>
-                <div className = "col-3 text-center">
-                    <Link to={{pathname:"/Cat4"}}>Category 4</Link>
-                </div>
-            </div>
-            <div className = "row">
-                <div className = "col-3 text-center">
-                    <img src = "#" />
-                </div>
-                <div className = "col-3 text-center">
-                    <img src = "#" />
-                </div>
-                <div className = "col-3 text-center">
-                    <img src = "#" />
-                </div>
-                <div className = "col-3 text-center">
-                    <img src = "#" />
-                </div>
-            </div>
-            </div>
+        </div>
         )
     }
 }

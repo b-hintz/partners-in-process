@@ -1,6 +1,7 @@
 import React from 'react';
 import ContactForm from './ContactForm'
-import emailjs from 'emailjs';
+import emailjs from 'emailjs-com';
+import ModalPopup from './ModalPopup'
 
 class Contact extends React.Component {
 
@@ -10,83 +11,88 @@ class Contact extends React.Component {
         lastName: '',
         subject: '',
         questions: '',
-        questionsList: []
+        showModal: false,
+        header: '',
+        body: ''
     }
 
-       //change handlers
-       handleChange1 = (event) => {
-           this.setState({email: event.target.value});
+       handleChange = (e) => {
+           this.setState({[e.target.name]: e.target.value});
        }
-       handleChange2 = (event) => {
-           this.setState({firstName: event.target.value});
-       }
-       handleChange3 = (event) => {
-          this.setState({lastName: event.target.value});
-       }
-        handleChange4 = (event) => {
-            this.setState({subject: event.target.value});
-        }
-        handleChange5 = (event) => {
-            this.setState({questions: event.target.value});
-        }
 
+       handleSubmit = (e) => {
+           e.preventDefault();
 
-       handleSubmit = (event) => {
-           event.preventDefault();
-            console.log(this.state.email)
-            console.log(this.state.firstName)
-            console.log(this.state.lastName)
-            console.log(this.state.subject)
-            console.log(this.state.questions)
-
+           if (this.state.email === '' || this.state.firstName === '' || this.state.lastName === '' || this.state.subject === '' || this.state.questions === '') {
+               return (
+                   this.setState({
+                        showModal: true,
+                        header: 'Sorry',
+                        body: 'Please fill out all fields before sending your message'
+                    }) 
+               )  
+           }
             let templateParams = {
-              from_name: this.state.email,
-              to_name: 'brandenhintz@gmail.com',
-              subject: this.state.subject,
-              message_html: this.state.questions,
-             }
+                subject: this.state.subject,
+                first: this.state.firstName,
+                last: this.state.lastName,
+                email: this.state.email,
+                message: this.state.questions
+            }
 
              emailjs.send(
-              'brandenhintz@gmail.com',
-              'template_fxGRnH08',
-               templateParams,
-              'user_Mp6zicNymLe3YFHHnxnk8'
+                'brandenhintz@gmail.com',
+                'template_kpqfkbg',
+                templateParams,
+                "user_b4v49w17Ibu59oBa9RR2q"
              )
 
-            this.setState({email: '', firstName: '', lastName: '', subject: '', questions: ''});
+            this.setState({
+                email: '', 
+                firstName: '', 
+                lastName: '', 
+                subject: '', 
+                questions: '', 
+                showModal: true, 
+                header: 'Thank You!', 
+                body:'Your message has been sent. We will get back to you as soon as possible.'});
+        }
 
-       }
+        handleClose =()=>{
+            this.setState({
+                showModal: false
+            })
+        }
 
 
    render() {
        return (
-       
-                <div className='text-center p-5' >
-                    <h4 className='mb-5'>Contact Us</h4>
-                        <div>
-                            <div className = "alert-danger mx-auto my-3 alert">
-                                <h4>Have questions?</h4>
-                                <p>  Fill out the form below! We'll get back to you ASAP! </p>
-                            </div>
-
-
-                              <ContactForm
-                                  changeHandler1 = {this.handleChange1}
-                                  changeHandler2 = {this.handleChange2}
-                                  changeHandler3 = {this.handleChange3}
-                                  changeHandler4 = {this.handleChange4}
-                                  changeHandler5 = {this.handleChange5}
-                                  handleButton = {this.handleSubmit}
-                                  value1 = {this.state.email}
-                                  value2 = {this.state.firstName}
-                                  value3 = {this.state.lastName}
-                                  value4 = {this.state.subject}
-                                  value5 = {this.state.questions}
-
-                              />
-                          </div>
-                      </div>
-              );
+            <div className='text-center p-5' >
+                <div>
+                    <div className = "alert-info mx-auto my-3 alert">
+                        <h4>Have questions?</h4>
+                        <p>Fill out the form below. We'll get back to you ASAP!</p>
+                    </div>
+                    <div>
+                        <ContactForm
+                            changeHandler = {this.handleChange}
+                            handleButton = {this.handleSubmit}
+                            value1 = {this.state.email}
+                            value2 = {this.state.firstName}
+                            value3 = {this.state.lastName}
+                            value4 = {this.state.subject}
+                            value5 = {this.state.questions} 
+                        />
+                        <ModalPopup 
+                            show={this.state.showModal} 
+                            handleClose={this.handleClose} 
+                            header={this.state.header} 
+                            body = {this.state.body}
+                        />
+                    </div>
+                </div>
+            </div>
+        );
     }
 }
 

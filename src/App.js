@@ -15,14 +15,16 @@ class App extends React.Component {
   render (){
       return (
       <BrowserRouter>
-        <div className="container-fluid app">
+        <div className="container-fluid">
         <Nav />
+        <div className="app pb-4">
         <Switch>
           <Route exact path="/" render = {() => <About />} />
           <Route exact path="/AllProducts" render = {() => <AllProducts/>} />
           <Route exact path="/Manufacturers" render = {() => <Manufacturers/>} />
           <Route exact path="/Contact" render = {() => <Contact/>} />
         </Switch>
+        </div>
         </div>
         </BrowserRouter>
       )

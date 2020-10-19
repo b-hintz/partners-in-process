@@ -8,19 +8,19 @@ const ContactForm = (props) => (
             <div className = "row">
                 <Form.Group controlId="exampleForm.ControlEmail" className = "field">
                     <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="name@example.com" value={props.value1} onChange={props.changeHandler1}/>
+                    <Form.Control type="email" name = "email" placeholder="name@example.com" value={props.value1} onChange={props.changeHandler} />
                 </Form.Group>
             </div>
             <div className = "row">
                 <Form.Group controlId="formGridFirstName" className = "field">
                     <Form.Label>First Name</Form.Label>
-                    <Form.Control type="text" placeholder="First Name" value={props.value2} onChange={props.changeHandler2}/>
+                    <Form.Control type="text" name = "firstName" placeholder="First Name" value={props.value2} onChange={props.changeHandler} />
                 </Form.Group>
             </div>
             <div className = "row">
                 <Form.Group controlId="formGridLastName" className = "field">
                     <Form.Label>Last Name</Form.Label>
-                    <Form.Control type="text" placeholder="Last Name" value={props.value3} onChange={props.changeHandler3}/>
+                    <Form.Control type="text" name = "lastName" placeholder="Last Name" value={props.value3} onChange={props.changeHandler} />
                 </Form.Group>
             </div>
             <div className = "row">
@@ -28,16 +28,16 @@ const ContactForm = (props) => (
             <Form.Row>
                 <Form.Group controlId="formGridSubject" className = "field">
                     <Form.Label>Subject</Form.Label>
-                    <Form.Control type="text" placeholder="Subject" value={props.value4} onChange={props.changeHandler4} />
+                    <Form.Control type="text" name = "subject" placeholder="Subject" value={props.value4} onChange={props.changeHandler} />
                 </Form.Group>
             </Form.Row>
             <Form.Row>
                 <Form.Group controlId="exampleForm.ControlQuestions">
-                    <textarea className="textarea" type="text" placeholder="Message" value={props.value5} onChange={props.changeHandler5}/>
+                    <textarea type="text" className = "textarea" name = "questions" placeholder="Message" value={props.value5} onChange={props.changeHandler} />
                 </Form.Group>
             </Form.Row>   
             <Form.Row> 
-                <Button variant="primary" onClick={props.handleButton} >Send</Button>
+                <Button variant="secondary" onClick={props.handleButton} >Send</Button>
             </Form.Row>
             </div>
             </div>

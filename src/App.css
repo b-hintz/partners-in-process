@@ -1,27 +1,7 @@
-.link {
-  font-style: italic;
-  margin-left:2vw;
-  margin-right:6vw;
-  line-height: 6vh;
-  color:black;
-}.link:hover{
-  color: blue;
-}
-
-.navbar{
-  font-size: 3vh;
-  height:7vh;
-  color:black;
-  padding: 0px 40px 0px 40px;
-  background-color: rgb(224, 222, 235);
-  border-top: solid black 2px;
-  border-bottom: solid black 2px;
-}
 
 .app{
   font-family: Arial, Helvetica, sans-serif;
-  width: 70vw;
-  min-height: 110vh;
+  min-height: 120vh;
   margin: auto;
   background-color: #464746;
   color: white;
@@ -29,7 +9,7 @@
 
 .logobar{
   font-size: 5vh;
-  height: 15vh;
+  height: fit-content;
   background-color: ivory;
   color: black;
 }
@@ -38,6 +18,7 @@
   font-size: 40%;
   font-weight: bold;
   font-style: italic;
+  left: 6%;
 }
 .logo{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -54,22 +35,47 @@
 .form{
   border: solid black 2px;
   border-radius: 9px;
-  background-color: ivory;
+  background-color: rgb(196, 196, 193);
   width: fit-content;
   margin: auto;
+  color: black;
 }
 
 .alert{
   width: fit-content;
 }
 
-.productNav{
+.cat{
   border: solid black 1px;
+  padding: 5px;
+  background-color: rgb(17, 28, 39);
+  border-radius: 7px;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.manlink{
+  width: 300px;
+  height: 170px;
   background-color: white;
+  color: black;
+  box-shadow: 3px 3px 1px 1px;
+  border-radius: 7px;
+}
+
+.mangroup{
+  width: fit-content;
+  margin: auto;
+
 }
 
 .product{
-  font-family: Arial, Helvetica, sans-serif;
+  width: 30vw;
+  margin: auto;
+  padding: 3%;
+  color: black;
+  background-color: rgb(194, 189, 189);
+  box-shadow: 3px 3px 1px 1px;
+  border-radius: 10px;
 }
 
 .pageContainer{
@@ -95,4 +101,15 @@ a {
   font-style: italic;
   font-size: 150%;
   background-color: white;
+}
+
+.slideshow{
+  background-color: rgb(17, 28, 39);
+  height: 50vh;
+  width: 100%;
+}
+
+.about{
+  padding-left: 20%;
+  padding-right: 20%;
 }

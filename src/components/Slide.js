@@ -1,0 +1,32 @@
+import React from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+import pic1 from '../images/stock 1.jpg'
+import pic2 from '../images/stock 3.jpg'
+import pic3 from '../images/stock 4.jpg'
+
+const Slide = (props) => (
+    <div className = "slideshow mx-3 py-5">
+        <Carousel className='carousel' interval={4800} keyboard={false} pauseOnHover={true}>
+            <Carousel.Item>
+                <img style={{'height':"40vh"}} className="d-block w-50 mx-auto" src={pic1} alt="pic 1"/>
+                <Carousel.Caption>
+                    <h3 style={{'font-weight': 'bold'}}>Offering the best equipment</h3>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img style={{'height':"40vh"}} className="d-block w-50 mx-auto" src={pic2} alt= "pic 2"/>
+                <Carousel.Caption>
+                    <h3 style = {{'font-weight': 'bold'}}>Building a better tomorrow together</h3>
+                </Carousel.Caption>
+            </Carousel.Item  >
+            <Carousel.Item>
+                <img style={{'height':"40vh"}} className="d-block w-50 mx-auto" src={pic3} alt="pic 3" />
+                <Carousel.Caption>
+                    <h3 style = {{'font-weight': 'bold'}}>Working with you to meet your needs</h3>
+                </Carousel.Caption>
+            </Carousel.Item  >
+        </Carousel> 
+    </div>
+)
+
+export default Slide
