@@ -19,7 +19,7 @@ class App extends React.Component {
         <Nav />
         <div className="app pb-4">
         <Switch>
-          <Route exact path="/" render = {() => <About />} />
+          <Route exact path="/partners-in-process" render = {() => <About />} />
           <Route exact path="/AllProducts" render = {() => <AllProducts/>} />
           <Route exact path="/Manufacturers" render = {() => <Manufacturers/>} />
           <Route exact path="/Contact" render = {() => <Contact/>} />

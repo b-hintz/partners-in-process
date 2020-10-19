@@ -5,7 +5,7 @@ const Nav = (props) => (
     <div>
     <div className = "row logobar">
         <div className = "col-lg-9 pt-5">
-        <Link to={{pathname: "/"}} className= 'logo'>Company Logo</Link>
+        <Link to={{pathname: "/partners-in-process"}} className= 'logo'>Company Logo</Link>
         </div>
         <div className = "col-lg-3 pt-5 contact">
             <p>Phone: (555)555-5555</p>
@@ -20,7 +20,7 @@ const Nav = (props) => (
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul className = "navbar-nav">
             <li className="nav-item mx-5">
-            <Link to={{pathname:"/"}} className = "nav-link">About Us</Link>
+            <Link to={{pathname:"/partners-in-process"}} className = "nav-link">About Us</Link>
             </li>
             <li className="nav-item mx-5">
             <Link to={{pathname: "/AllProducts"}} className = "nav-link">Products</Link>
