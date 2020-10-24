@@ -1,7 +1,5 @@
 import React from 'react';
 import Product from './Product';
-import Motorpump from '../images/motorpumps.gif'
-import Screwsucker from '../images/screwsucker.jpg'
 
 class Cat4 extends React.Component{
     render(){

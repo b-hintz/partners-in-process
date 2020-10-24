@@ -1,7 +1,5 @@
 import React from 'react';
 import Product from './Product'
-import Pump from '../images/pump1.jpg'
-import sewatec from '../images/sewatec.gif'
 
 const Cat1 = (props) => (
         <div>

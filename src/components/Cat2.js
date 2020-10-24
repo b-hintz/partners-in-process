@@ -1,7 +1,5 @@
 import React from 'react';
 import Product from './Product';
-import Hydrogritter from '../images/hydrogritter.jpg'
-import Membranes from '../images/membranes.jpg'
 
 class Cat2 extends React.Component{
     render(){

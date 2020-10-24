@@ -1,7 +1,5 @@
 import React from 'react';
 import Product from './Product';
-import Amamix from '../images/amamix.gif'
-import Amaprop from '../images/amaprop.jpg'
 
 class Cat3 extends React.Component{
     render(){
