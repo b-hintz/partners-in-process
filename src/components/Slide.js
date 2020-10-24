@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import pic1 from '../images/stock 1.jpg'
-import pic2 from '../images/stock 3.jpg'
+import pic1 from '../images/farm.jpg'
+import pic2 from '../images/fishing.webp'
 import pic3 from '../images/stock 4.jpg'
 
 const Slide = (props) => (
@@ -16,7 +16,7 @@ const Slide = (props) => (
             <Carousel.Item>
                 <img style={{'height':"40vh"}} className="d-block mx-auto w-100" src={pic2} alt= "pic 2"/>
                 <Carousel.Caption>
-                    <h3 style = {{'font-weight': 'bold'}}>Building a better tomorrow together</h3>
+                    <h3 style = {{'font-weight': 'bold'}}>Have questions? Drop us a line</h3>
                 </Carousel.Caption>
             </Carousel.Item  >
             <Carousel.Item>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Manlink = (props) => (
 
-            <div className = "manlink m-3 text-center"> 
+            <div className = "manlink m-3 pt-3 text-center"> 
                 <a href = {props.href} target = "_blank" rel="noopener noreferrer">
                     <img src = {props.src} alt = {props.alt} />
                 </a>
