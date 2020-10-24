@@ -1,32 +1,27 @@
 {
   "files": {
     "main.css": "/partners-in-process/static/css/main.3a12517a.chunk.css",
-    "main.js": "/partners-in-process/static/js/main.025c086a.chunk.js",
-    "main.js.map": "/partners-in-process/static/js/main.025c086a.chunk.js.map",
+    "main.js": "/partners-in-process/static/js/main.af78f95d.chunk.js",
+    "main.js.map": "/partners-in-process/static/js/main.af78f95d.chunk.js.map",
     "runtime-main.js": "/partners-in-process/static/js/runtime-main.b62e2fa2.js",
     "runtime-main.js.map": "/partners-in-process/static/js/runtime-main.b62e2fa2.js.map",
-    "static/js/2.15fe09dc.chunk.js": "/partners-in-process/static/js/2.15fe09dc.chunk.js",
-    "static/js/2.15fe09dc.chunk.js.map": "/partners-in-process/static/js/2.15fe09dc.chunk.js.map",
+    "static/js/2.d8fbff8d.chunk.js": "/partners-in-process/static/js/2.d8fbff8d.chunk.js",
+    "static/js/2.d8fbff8d.chunk.js.map": "/partners-in-process/static/js/2.d8fbff8d.chunk.js.map",
     "index.html": "/partners-in-process/index.html",
-    "precache-manifest.87c0bf65528d2ff929813b31b3940484.js": "/partners-in-process/precache-manifest.87c0bf65528d2ff929813b31b3940484.js",
+    "precache-manifest.3656a870041a023a2e3645861e63b27c.js": "/partners-in-process/precache-manifest.3656a870041a023a2e3645861e63b27c.js",
     "service-worker.js": "/partners-in-process/service-worker.js",
     "static/css/main.3a12517a.chunk.css.map": "/partners-in-process/static/css/main.3a12517a.chunk.css.map",
-    "static/js/2.15fe09dc.chunk.js.LICENSE.txt": "/partners-in-process/static/js/2.15fe09dc.chunk.js.LICENSE.txt",
+    "static/js/2.d8fbff8d.chunk.js.LICENSE.txt": "/partners-in-process/static/js/2.d8fbff8d.chunk.js.LICENSE.txt",
     "static/media/Tecweigh-logo.jpg": "/partners-in-process/static/media/Tecweigh-logo.b1a15874.jpg",
-    "static/media/amamix.gif": "/partners-in-process/static/media/amamix.4e7dd1c3.gif",
-    "static/media/amaprop.jpg": "/partners-in-process/static/media/amaprop.05eb8e6a.jpg",
     "static/media/farm.jpg": "/partners-in-process/static/media/farm.647a71ea.jpg",
     "static/media/fishing.webp": "/partners-in-process/static/media/fishing.75f2aa6a.webp",
-    "static/media/hydrogritter.jpg": "/partners-in-process/static/media/hydrogritter.20393f67.jpg",
-    "static/media/membranes.jpg": "/partners-in-process/static/media/membranes.742e66b9.jpg",
     "static/media/pnue-con.jpg": "/partners-in-process/static/media/pnue-con.39171afe.jpg",
-    "static/media/screwsucker.jpg": "/partners-in-process/static/media/screwsucker.364c0452.jpg",
     "static/media/stock 4.jpg": "/partners-in-process/static/media/stock 4.cadbd95e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b62e2fa2.js",
-    "static/js/2.15fe09dc.chunk.js",
+    "static/js/2.d8fbff8d.chunk.js",
     "static/css/main.3a12517a.chunk.css",
-    "static/js/main.025c086a.chunk.js"
+    "static/js/main.af78f95d.chunk.js"
   ]
 }
