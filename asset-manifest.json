@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/partners-in-process/static/css/main.f94cd602.chunk.css",
-    "main.js": "/partners-in-process/static/js/main.5825ae1e.chunk.js",
-    "main.js.map": "/partners-in-process/static/js/main.5825ae1e.chunk.js.map",
+    "main.css": "/partners-in-process/static/css/main.6018840a.chunk.css",
+    "main.js": "/partners-in-process/static/js/main.e79d6f8d.chunk.js",
+    "main.js.map": "/partners-in-process/static/js/main.e79d6f8d.chunk.js.map",
     "runtime-main.js": "/partners-in-process/static/js/runtime-main.b62e2fa2.js",
     "runtime-main.js.map": "/partners-in-process/static/js/runtime-main.b62e2fa2.js.map",
-    "static/js/2.b7dfc24b.chunk.js": "/partners-in-process/static/js/2.b7dfc24b.chunk.js",
-    "static/js/2.b7dfc24b.chunk.js.map": "/partners-in-process/static/js/2.b7dfc24b.chunk.js.map",
+    "static/js/2.ffe39fc5.chunk.js": "/partners-in-process/static/js/2.ffe39fc5.chunk.js",
+    "static/js/2.ffe39fc5.chunk.js.map": "/partners-in-process/static/js/2.ffe39fc5.chunk.js.map",
     "index.html": "/partners-in-process/index.html",
-    "precache-manifest.f850c17e320c58ed31c758c82c337fc8.js": "/partners-in-process/precache-manifest.f850c17e320c58ed31c758c82c337fc8.js",
+    "precache-manifest.23f8e8a822e67e430858594e5f6e8e31.js": "/partners-in-process/precache-manifest.23f8e8a822e67e430858594e5f6e8e31.js",
     "service-worker.js": "/partners-in-process/service-worker.js",
-    "static/css/main.f94cd602.chunk.css.map": "/partners-in-process/static/css/main.f94cd602.chunk.css.map",
-    "static/js/2.b7dfc24b.chunk.js.LICENSE.txt": "/partners-in-process/static/js/2.b7dfc24b.chunk.js.LICENSE.txt",
+    "static/css/main.6018840a.chunk.css.map": "/partners-in-process/static/css/main.6018840a.chunk.css.map",
+    "static/js/2.ffe39fc5.chunk.js.LICENSE.txt": "/partners-in-process/static/js/2.ffe39fc5.chunk.js.LICENSE.txt",
     "static/media/Tecweigh-logo.jpg": "/partners-in-process/static/media/Tecweigh-logo.b1a15874.jpg",
     "static/media/farm.jpg": "/partners-in-process/static/media/farm.647a71ea.jpg",
     "static/media/fishing.webp": "/partners-in-process/static/media/fishing.75f2aa6a.webp",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b62e2fa2.js",
-    "static/js/2.b7dfc24b.chunk.js",
-    "static/css/main.f94cd602.chunk.css",
-    "static/js/main.5825ae1e.chunk.js"
+    "static/js/2.ffe39fc5.chunk.js",
+    "static/css/main.6018840a.chunk.css",
+    "static/js/main.e79d6f8d.chunk.js"
   ]
 }
