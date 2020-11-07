@@ -69,7 +69,6 @@
 
 }
 .mannav {
-  background-color: black;
   width: 100%;
   margin: auto;
 }
@@ -84,12 +83,26 @@
 
 .product{
   width: 30vw;
+  height: 500px;
   margin: auto;
   padding: 3%;
   color: black;
   background-color: rgb(194, 189, 189);
   box-shadow: 3px 3px 1px 1px;
   border-radius: 10px;
+}
+
+.productcont{
+  width: 100%;
+  margin: auto;
+}
+
+.prodimg{
+  height: 100px;
+  width: 250px;
+  border: solid black 3px;
+  border-radius: 10px;
+  box-shadow: black 1px 1px 2px 2px;
 }
 
 a {
