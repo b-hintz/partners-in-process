@@ -68,6 +68,19 @@
   margin: auto;
 
 }
+.mannav {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+.mancol{
+  display: block;
+  width: 57%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
 .product{
   width: 30vw;
@@ -77,10 +90,6 @@
   background-color: rgb(194, 189, 189);
   box-shadow: 3px 3px 1px 1px;
   border-radius: 10px;
-}
-
-.pageContainer{
-  padding: 5%;
 }
 
 a {
